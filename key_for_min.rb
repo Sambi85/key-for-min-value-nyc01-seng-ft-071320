@@ -3,11 +3,8 @@
 
 def key_for_min_value(name_hash)
 var = 
-name_hash.each do |key, value|
-  value.collect |value| var << value
-    if value == var
-     return key
-      end
-    end
+name_hash.each do |name, number|
+pp  name
+pp  number
   end
 end
