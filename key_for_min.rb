@@ -6,7 +6,7 @@ var = []
 name_hash.each do |name, number|
 var << number
   
-  if number =< var.min
+  if number == var.min
     name
     end
   end
