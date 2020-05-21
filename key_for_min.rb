@@ -5,9 +5,11 @@ def key_for_min_value(name_hash)
 var = []
 name_hash.each do |name, number|
 var << number
-  pp var.min
+end
+
+pp var
   if number == var
  return name
-    end
+    
   end
 end
