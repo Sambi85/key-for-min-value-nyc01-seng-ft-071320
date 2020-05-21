@@ -7,8 +7,7 @@ var = []
     var << number
       if number == var.min
         return name
-      else
-        nil
     end
   end
+nil
 end
