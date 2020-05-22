@@ -7,7 +7,7 @@ var = []
     var << number
     end
   name_hash.each do |name, number|    
-      if number == .min
+      if number == var.min
         return name
       
       end
